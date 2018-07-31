@@ -1,0 +1,3 @@
+- function for player 1's choice
+- function for player 2's choice
+- function for deciding the winner between two choices

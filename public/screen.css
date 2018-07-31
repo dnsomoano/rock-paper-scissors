@@ -7,3 +7,31 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+ul {
+  align-self: center;
+  text-align: center;
+  list-style: none;
+}
+
+.playerOne {
+  display: flex;
+  flex-direction: column;
+}
+
+.playerTwo {
+  display: flex;
+  flex-direction: column;
+}
