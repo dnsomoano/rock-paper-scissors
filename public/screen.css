@@ -8,13 +8,13 @@ body {
   font: 16px / 1 sans-serif;
 }
 
-.headerContainer {
+.header-container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
 
-.mainContainer {
+.main-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -26,12 +26,16 @@ ul {
   list-style: none;
 }
 
-.playerOne {
+.player-one {
   display: flex;
   flex-direction: column;
 }
 
-.playerTwo {
+.player-two {
   display: flex;
   flex-direction: column;
+}
+
+.player-one-button {
+  display: inline-block;
 }

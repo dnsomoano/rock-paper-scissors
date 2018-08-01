@@ -7,11 +7,12 @@
 //
 // Player 1 choice
 const playerOneSelection = () => {
-  let playerOneChoice = document.querySelector('').value;
+  const playerOneChoice = document.querySelector('.player-one-button').textContent;
+  console.log(playerOneChoice);
 }
 
 // Player 1
-document.querySelector(".playerOneRock").addEventListener('click', playerOneSelection);
+document.querySelector('.player-one-button').addEventListener('click', playerOneSelection)
 // document.querySelector("playerOnePaper").addEventListener('click', playerOneSelection)
 // document.querySelector("playerOneScissors").addEventListener('click', playerOneSelection)
 
