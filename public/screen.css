@@ -39,3 +39,9 @@ ul {
 .player-one-button {
   display: inline-block;
 }
+
+.player-one-choice {
+  display: flex;
+  flex-direction: center;
+  justify-content: space-evenly;
+}
